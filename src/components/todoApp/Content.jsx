@@ -2,6 +2,8 @@
 // event triggering
 
 function Content() {
+
+  // style variable
   const pStyles = {
     textAlign: 'center',
     color: 'blue',
@@ -9,6 +11,9 @@ function Content() {
     padding: '0px',
     margin: '0px',
   };
+
+  // value variable
+  let user = 'Maharajan';
 
   function clickMeMethod() {
     user = 'Maha clicked button';
@@ -28,8 +33,6 @@ function Content() {
   function paramCallEvent(e) {
     console.log(e);
   }
-
-  let user = 'Maharajan';
 
   return (
     <main>
