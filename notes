@@ -1,0 +1,71 @@
+React Js -> JS lib -> UI -> Facebook
+Virtual DOM 
+Single Page Application
+
+HTML CSS JS ES6+
+
+imperative programming  -> Document.getElementByID method (Vannilla Javascript Code)
+declarative programming -> JSX Method
+
+babel extension : react code will be written in JSX, browser cant understand JSX so Babel is used as transpiler -> CRA 
+EsBuild : react code will be written in JSX, browser cant understand JSX so EsBuild is used as transpiler -> Vite 
+
+CRA  (Create React App) : Building Tool
+Vite : Building Tool
+
+Component Based Architecture
+
+JSX : Javascript XML 
+
+JSX 
+    React uses a syntax extension of JavaScript called JSX that allows you to write HTML directly within JavaScript.
+    JSX can represent more complex HTML as well.
+    One important thing to know about nested JSX is that it must return a single element.
+    This one parent element would wrap all of the other levels of nested elements.
+        Valid JSX
+        <div>
+            <p>Paragraph One</p>
+            <p>Paragraph Two</p>
+            <p>Paragraph Three</p>
+            <br/>
+            <input/>
+        </div>
+        Invalid JSX
+        <p>Paragraph One</p>
+        <p>Paragraph Two</p>
+        <p>Paragraph Three</p>
+        <br>
+        <input>
+    JSX is a convenient tool to write readable HTML within JavaScript. With React, we can render this JSX directly to the HTML DOM using React's rendering API known as ReactDOM.
+
+    HTML attributes = React Props
+    class = className
+    for = htmlFor
+    style = style {{propertyName :  value}}
+
+    events
+    onclick = onClick
+
+    <></>
+    <React.Fragment><React.Fragment/>
+
+    conditional Rendering
+
+Components : 
+  Building Block
+  Reusable
+  state (data)
+  use props to send data from one component to another parent to child
+    > Class component (stateful component)
+    > Functional component (stateless component) use hooks (2019 released version) to handle state in func comp
+
+
+    funtional component
+      -> how to add style in created component
+      -> how to implement event triggers 
+
+    state (data in the component)
+      -> Local State
+      -> Global State
+
+    Conditional Rendering
